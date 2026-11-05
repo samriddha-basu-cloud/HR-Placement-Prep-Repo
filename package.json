@@ -1,0 +1,22 @@
+{
+  "name": "hr-placement-prep",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "HR placement preparation web app for PGDM/MBA HR 2027 – HR Generalist, HR Operations, Talent Acquisition, Payroll, Compliance and HR Analytics.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "node scripts/check-content.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.8"
+  }
+}
